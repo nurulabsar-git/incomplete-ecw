@@ -1,8 +1,24 @@
-
 .my-card{
     border: 0;
 }
+
 .my-footer{
     background-color: white;
     border: 0;
+}
+
+.my-img img{
+    width: 100px;
+}
+
+.my-slide .carousel-item{
+    background:#fceae8; 
+    border-radius: 1em;
+}
+
+.submit{
+    margin-top: 4em;
+    height: 200px; 
+    background-color: #fceae8;
+    border-radius: 1em;
 }

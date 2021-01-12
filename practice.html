@@ -19,15 +19,15 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Shoes</a>
-                  <a class="nav-link" href="#"> Backpack</a>
-                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
-                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About Me</a>
+                  <a class="nav-link" href="#my-shoes">Shoes</a>
+                  <a class="nav-link" href="#my-backpack"> Backpack</a>
+                  <a class="nav-link" href="#my-info" tabindex="-1" aria-disabled="true">Subscribe</a>
+                  <a class="nav-link" href="#myself" tabindex="-1" aria-disabled="true">About Me</a>
                 </div>
               </div>
             </div>
 
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide my-slide mt-sm-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="row d-flex align-items-center p-sm-5">
@@ -81,7 +81,7 @@
           </nav>
     </header>
     <main class="container">
-        <section class="container overflow-hidden mt-5">
+        <section class="container overflow-hidden mt-5 my-img">
             <div class="row g-5">
               <div class="col">
                <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
@@ -106,7 +106,7 @@
             </div>
           </section>
 
-          <section class="mt-5">
+          <section id="my-shoes" class="mt-5">
               <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -154,7 +154,7 @@
 
 
 
-          <section class="mt-5">
+          <section id="my-backpack" class="mt-5">
             <h3>Bag</h3>
           <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
@@ -198,8 +198,8 @@
               </div>
           </div>
         </section>
-        <section style="height: 200px;" class="bg-warning container d-flex justify-content-cente align-items-center mt-sm-5">
 
+        <section id="my-info" class="submit container d-flex justify-content-cente align-items-center mt-sm-5">
           <div>
             <h1>LETS'S sTAY IN TOUCH</h1>
             <h5>Get update's on sales, special and more</h5>
@@ -208,7 +208,7 @@
           </div>
         </section>
     </main>
-  <footer class="text-center mt-sm-5">
+  <footer id="myself" class="text-center mt-sm-5">
     <small>©2021. Rifat Commerce. All rights reserved. Sofia, Bulgaria.</small>
   </footer>
     <script src="js/bootstrap.min.js"></script>
